@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    display: flex;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+.image-sidebar {
+    width: 1400px;
+    height: auto;
+    background-image: url("side-image.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.description {
+    background-color: #F7F7F9;
+    width: 100%;
+    font-size: 24px;
+    padding: 150px 80px 72px 48px;
+}
+
+.description :nth-child(2) {
+    padding-top: 18px;
+}
+p {
+    margin: 0;
+}
+
+.form p{
+    font-size: 24px;
+}
+
+.form {
+    padding: 24px 0 24px 48px;
+    width: 100%;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    box-shadow: 10px 5px 5px #ccc;
+}
+
+form {
+
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    display: flex;
+    gap: 0 48px;
+    flex-wrap: wrap;
+
+}
+.form-row {
+    display: flex;
+    margin-right: 72px;
+    margin-top: 24px;
+    width: 250px;
+
+}
+.form-row input {
+    width: 275px;
+    height: 32px;
+    font-size: 16px;
+    border: 1px solid #E5E7EB;
+    padding: 0;
+    padding: 0 4px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #596D48;
+    height: 48px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 0;
+    border: 0;
+    padding: 12px 48px ;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.button-container {
+    width: 100%;
+    padding: 32px 100px 200px 48px;
+    background-color: #F7F7F9;
+}
+
+.button-container p {
+    margin-top: 32px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p span {
+    color: #596D48;
+    font-weight: 500;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #219ebc;
+    box-shadow: 3px 1.5px 1.5px #ddd;
+}
+
+input[type="password"]:invalid {
+    border: 1px solid red;
+}
+
+
+input[type="password"]:focus:invalid {
+    border: 1px solid #219ebc;
+}
+
